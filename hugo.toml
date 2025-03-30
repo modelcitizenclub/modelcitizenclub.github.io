@@ -1,0 +1,56 @@
+# Site settings
+baseURL = "https://modelcitizenclub.github.io/theblakester"
+languageCode = "en-US"
+title = "The Blakester"
+disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
+disableHugoGeneratorInject = true
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+# Copyright
+copyright = "&copy;2025 Blake Ciappina"
+
+[services]
+  [services.googleAnalytics]
+    # Enter your tracking code to enable Google Analytics
+    ID = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Blake Ciappina"
+  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  shareImage = "images/social.jpg"
+  #twitterHandle = ""
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Social"
+
+      [[params.links.list1.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/blake_ciappina/"
