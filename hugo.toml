@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://modelcitizenclub.github.io/theblakester"
+baseURL = "https://modelcitizenclub.github.io"
 languageCode = "en-US"
 title = "The Blakester"
 disableKinds = ["section", "taxonomy", "RSS", "sitemap"]

@@ -1,4 +1,4 @@
-http://modelcitizenclub/theblakester/index.html
-http://modelcitizenclub/theblakester/commonmark.html
-http://modelcitizenclub/theblakester/long-text.html
-http://modelcitizenclub/theblakester/no-image.html
+http://modelcitizenclub/index.html
+http://modelcitizenclub/commonmark.html
+http://modelcitizenclub/long-text.html
+http://modelcitizenclub/no-image.html
